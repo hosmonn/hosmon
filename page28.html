@@ -42,15 +42,18 @@
         </div>
         
   <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-  [JS_CODE_0]
-  [JS_CODE_1]
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
    
 
 
   <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls="" preload="auto" data-setup="{}">
     <source src="https://rotananet.hibridcdn.net/rotana/clip_abr/rotana/clip_1080p/chunks.m3u8?p=48&amp;s=1662403126&amp;e=1662489526&amp;cf=1662489526&amp;h=c084f7ddcd9d94385c2f19ecb7183cd2" type="application/x-mpegURL"></video>
   
-[JS_CODE_2]
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
   
     </div>
 </section>

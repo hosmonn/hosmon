@@ -29,34 +29,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="content4 cid-tgsBjX3E9L" id="content4-k">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Manoto TV</strong></h3>
-                
-                
-            </div>
-        </div>
-        
-  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-  [JS_CODE_0]
-  [JS_CODE_1]
-   
-
-
-  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls="" preload="auto" data-setup="{}">
-    <source src="https://edge-cdn1.manoto.click/live_2500.m3u8" type="application/x-mpegURL"></video>
-  
-[JS_CODE_2]
-  
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="menu menu3 cid-tgsBjY7KmG" once="menu" id="menu3-l">
+  <section data-bs-version="5.1" class="menu menu3 cid-tgsBjY7KmG" once="menu" id="menu3-l">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -97,6 +70,36 @@
             </div>
         </div>
     </nav>
+</section>
+
+<section data-bs-version="5.1" class="content4 cid-tgsBjX3E9L" id="content4-k">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                    <strong>Manoto TV</strong></h3>
+                
+                
+            </div>
+        </div>
+        
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+   
+
+
+  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls="" preload="auto" data-setup="{}">
+    <source src="https://edge-uk4.manoto.click/live_2500.m3u8" type="application/x-mpegURL"></video>
+  
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
+  
+    </div>
 </section>
 
 <section data-bs-version="5.1" class="footer3 cid-tgsHYKRgXZ" once="footers" id="footer3-14">

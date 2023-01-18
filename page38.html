@@ -42,15 +42,18 @@
         </div>
         
   <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-  [JS_CODE_0]
-  [JS_CODE_1]
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
    
 
 
   <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls="" preload="auto" data-setup="{}">
     <source src="https://2nbyjjx7y53k-hls-live.5centscdn.com/ch1app/4e0ea63032b868402b61d3a35e7ca168.sdp/chunks.m3u8?md5=AL_I5sd0CV1jfTDVoNLtig&amp;expires=1662572848" type="application/x-mpegURL"></video>
   
-[JS_CODE_2]
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
   
     </div>
 </section>
